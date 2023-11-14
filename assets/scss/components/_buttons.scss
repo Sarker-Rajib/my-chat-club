@@ -11,7 +11,7 @@
 }
 
 .btn-contact {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -20,4 +20,24 @@
     background: #FEC230;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+}
+
+.btn-wrap {
+    display: inline-block;
+    background: #FFD8D8;
+    padding: 10px 30px;
+    border-radius: 25px;
+    width: 45%;
+    margin-top: 45px;
+
+    .btn-buy-credit {
+        font-family: 'Roboto', sans-serif;
+        background: #673AB7;
+        border-radius: 35px;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 30;
+        width: 75%;
+        padding: 10px;
+    }
 }

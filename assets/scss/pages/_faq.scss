@@ -73,12 +73,13 @@
             font-family: 'Roboto', sans-serif;
             position: relative;
             padding-bottom: 10px;
+            display: inline-block;
 
             &::after {
                 position: absolute;
                 content: '';
-                height: 5px;
-                width: 8%;
+                height: 6px;
+                width: 20%;
                 left: 50%;
                 transform: translateX(-50%);
                 top: 100%;

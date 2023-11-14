@@ -101,7 +101,7 @@ body {
 }
 
 .btn-contact {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -110,6 +110,25 @@ body {
   background: #FEC230;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+}
+
+.btn-wrap {
+  display: inline-block;
+  background: #FFD8D8;
+  padding: 10px 30px;
+  border-radius: 25px;
+  width: 45%;
+  margin-top: 45px;
+}
+.btn-wrap .btn-buy-credit {
+  font-family: "Roboto", sans-serif;
+  background: #673AB7;
+  border-radius: 35px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 30;
+  width: 75%;
+  padding: 10px;
 }
 
 /*===// end of components css === */
@@ -173,12 +192,13 @@ body {
   font-family: "Roboto", sans-serif;
   position: relative;
   padding-bottom: 10px;
+  display: inline-block;
 }
 .f-questions .top h4::after {
   position: absolute;
   content: "";
-  height: 5px;
-  width: 8%;
+  height: 6px;
+  width: 20%;
   left: 50%;
   transform: translateX(-50%);
   top: 100%;
@@ -258,4 +278,110 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-weight: 700;
+}
+
+.home-banner {
+  background: url(../images/Home/banner-bg.png) no-repeat center center;
+  padding: 40px 0;
+}
+.home-banner .t-wrap {
+  position: relative;
+}
+.home-banner .t-wrap .frnd-img {
+  position: absolute;
+  bottom: 90%;
+  left: 90%;
+  width: 200px;
+}
+.home-banner h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+.home-banner h2 span {
+  color: #673AB7;
+}
+.home-banner p {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 600;
+  font-size: 32px;
+  padding-bottom: 15px;
+}
+
+.features {
+  padding: 45px 0 100px;
+  background: url(../images/Home/bbg2.png) no-repeat left center;
+}
+.features .top h4 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.features .top h4::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100%;
+  background: linear-gradient(169.02deg, #B2EBF2 -58.33%, #D1C4E9 60.57%);
+  border-radius: 17px;
+}
+.features .texts {
+  padding-top: 20px;
+}
+.features .texts .item {
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.features .texts .item img {
+  width: 50px;
+  margin-left: -30px;
+}
+.features .texts .item h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.features .texts .item p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.special {
+  padding: 80px 0 100px;
+  background: url(../images/Home/hbbg3.png) no-repeat center center;
+}
+.special h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.special p {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.special h3 {
+  color: #673AB7;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.testimonial {
+  background: url(../images/Mask.png) no-repeat top center/cover;
+}
+.testimonial .testimonial-wrap {
+  padding: 120px 0;
 }/*# sourceMappingURL=style.css.map */
