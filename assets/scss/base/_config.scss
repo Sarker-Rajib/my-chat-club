@@ -1,0 +1,13 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  @media(min-width:1300px) {
+    max-width: 1300px;
+  }
+}
+
+// font-family: 'Crimson Text', serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Roboto', sans-serif;

@@ -1,0 +1,29 @@
+.footer {
+
+    .f-wrap {
+        padding: 35px 0;
+        background: url(../images/footer-by.png) bottom left/cover;
+    }
+
+    .link-wrap {
+        display: flex;
+    }
+
+    .n-link {
+        color: #673AB7;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+
+    .address {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .copyright {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
