@@ -70,6 +70,11 @@ body {
 .footer .link-wrap {
   display: flex;
 }
+@media (max-width: 767px) {
+  .footer .link-wrap {
+    flex-direction: column;
+  }
+}
 .footer .n-link {
   color: #673AB7;
   font-size: 18px;
@@ -85,6 +90,12 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+@media (max-width: 767px) {
+  .footer .copyright {
+    padding-top: 10px;
+    text-align: center;
+  }
+}
 
 /*===// end of layouts css === */
 /*=== components css start === */
@@ -99,6 +110,9 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.btn-login:hover {
+  border: 1px solid #673AB7;
+}
 
 .btn-contact {
   font-family: "Roboto", sans-serif;
@@ -110,6 +124,9 @@ body {
   background: #FEC230;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+}
+.btn-contact:hover {
+  border: 1px solid #673AB7;
 }
 
 .btn-wrap {
@@ -129,6 +146,20 @@ body {
   font-size: 30;
   width: 75%;
   padding: 10px;
+}
+.btn-wrap .btn-buy-credit:hover {
+  border: 1px solid #673AB7;
+}
+
+.btn-join {
+  background: #cb6ce6;
+  border-radius: 25px;
+  padding: 10px 25px;
+  color: #fff;
+  font-weight: 700;
+}
+.btn-join:hover {
+  border: 1px solid #673AB7;
 }
 
 /*===// end of components css === */
@@ -384,4 +415,167 @@ body {
 }
 .testimonial .testimonial-wrap {
   padding: 120px 0;
+}
+
+.club-banner {
+  background: #fff5f5;
+  padding: 30px 0;
+}
+.club-banner h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.club-banner p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: 30px;
+  color: rgba(0, 0, 0, 0.5254901961);
+}
+
+.join-community {
+  padding: 80px 0 20px;
+  background: url(../images/CT/cbg2.png) no-repeat bottom center;
+}
+.join-community .top {
+  text-align: center;
+}
+.join-community .top h4 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.join-community .top h4::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100%;
+  background: linear-gradient(169.02deg, #B2EBF2 -58.33%, #D1C4E9 60.57%);
+  border-radius: 17px;
+}
+.join-community .top p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+.join-community .inner-c {
+  padding-top: 35px;
+}
+.join-community .inner-c .item {
+  padding-bottom: 35px;
+}
+.join-community .inner-c .item .image {
+  margin-right: 25px;
+}
+.join-community .inner-c .item .image img {
+  width: 65px;
+}
+.join-community .inner-c .item h5 {
+  font-weight: 700;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.87);
+  padding-bottom: 15px;
+}
+.join-community .inner-c .item p {
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.qualify {
+  padding: 35px 0;
+  background: url(../images/CT/f2bg1.png) no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+.qualify .qualty {
+  padding: 20px 0;
+  background: url(../images/CT/f2bg2.png) no-repeat center center;
+}
+.qualify .header {
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 35px;
+}
+.qualify .item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.qualify .item p {
+  padding-left: 25px;
+  font-weight: 600;
+}
+.qualify .para-g {
+  padding-top: 25px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.join-now {
+  background: url(../images/Mask.png) no-repeat top center/cover;
+}
+.join-now h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  color: #673AB7;
+  padding-bottom: 20px;
+}
+.join-now .form-join {
+  background: #CE93D8;
+  padding: 20px 40px;
+  color: #FFFFFF;
+}
+.join-now .form-join h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.join-now .form-join .input-c {
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  font-size: 30px;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff5f5;
+}
+.join-now .form-join .input-c::-moz-placeholder {
+  color: #fff5f5;
+  font-size: 30px;
+}
+.join-now .form-join .input-c::placeholder {
+  color: #fff5f5;
+  font-size: 30px;
+}
+.join-now .form-join .input-c option {
+  color: #000;
+}
+.join-now .form-join .rradio label {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.join-now .form-join .rradio input {
+  width: 30px;
+  height: 30px;
+}
+.join-now .form-join .submit-btn {
+  color: #673AB7;
+  font-size: 40px;
+  font-weight: 700;
+  background: #fff;
+  padding: 10px 25px;
+  border-radius: 25px;
 }/*# sourceMappingURL=style.css.map */

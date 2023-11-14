@@ -1,0 +1,189 @@
+.club-banner {
+    background: #fff5f5;
+    padding: 30px 0;
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 55px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+
+    p {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        line-height: 1.5;
+        padding-bottom: 30px;
+        color: #00000086;
+    }
+}
+
+.join-community {
+    padding: 80px 0 20px;
+    background: url(../images/CT/cbg2.png) no-repeat bottom center;
+
+    .top {
+        text-align: center;
+
+        h4 {
+            font-size: 48px;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            position: relative;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            display: inline-block;
+
+            &::after {
+                position: absolute;
+                content: '';
+                height: 6px;
+                width: 20%;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 100%;
+                background: linear-gradient(169.02deg, #B2EBF2 -58.33%, #D1C4E9 60.57%);
+                border-radius: 17px;
+            }
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 35px;
+        }
+    }
+
+
+    .inner-c {
+        padding-top: 35px;
+
+        .item {
+            padding-bottom: 35px;
+
+            .image {
+                margin-right: 25px;
+
+                img {
+                    width: 65px;
+                }
+            }
+
+            h5 {
+                font-weight: 700;
+                font-size: 32px;
+                color: rgba(#000, 0.87);
+                padding-bottom: 15px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 24px;
+                color: rgba(#000, 0.87);
+            }
+        }
+    }
+}
+
+.qualify {
+    padding: 35px 0;
+    background: url(../images/CT/f2bg1.png) no-repeat;
+    font-family: 'Roboto', sans-serif;
+
+    .qualty {
+        padding: 20px 0;
+        background: url(../images/CT/f2bg2.png) no-repeat center center;
+    }
+
+    .header {
+        font-size: 48px;
+        font-weight: 600;
+        padding-bottom: 35px;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+
+        p {
+            padding-left: 25px;
+            font-weight: 600;
+        }
+    }
+
+    .para-g {
+        padding-top: 25px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
+
+.join-now {
+    background: url(../images/Mask.png) no-repeat top center/cover;
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 600;
+        color: #673AB7;
+        padding-bottom: 20px;
+    }
+
+    .form-join {
+        background: #CE93D8;
+        padding: 20px 40px;
+        color: #FFFFFF;
+
+        h4 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            padding-bottom: 15px;
+        }
+
+        .input-c {
+            background: #00000000;
+            width: 100%;
+            font-size: 30px;
+            border: 1px solid #fff;
+            padding: 10px;
+            color: #fff5f5;
+
+            &::placeholder {
+                color: #fff5f5;
+                font-size: 30px;
+            }
+
+            option {
+                color: #000
+            }
+
+            ;
+        }
+
+        .rradio {
+            label {
+                display: inline-block;
+                font-size: 30px;
+                margin-right: 10px;
+            }
+
+            input {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .submit-btn {
+            color: #673AB7;
+            font-size: 40px;
+            font-weight: 700;
+            background: #fff;
+            padding: 10px 25px;
+            border-radius: 25px;
+        }
+    }
+}

@@ -1,5 +1,4 @@
 .footer {
-
     .f-wrap {
         padding: 35px 0;
         background: url(../images/footer-by.png) bottom left/cover;
@@ -7,6 +6,10 @@
 
     .link-wrap {
         display: flex;
+
+        @media(max-width: 767px) {
+            flex-direction: column;
+        }
     }
 
     .n-link {
@@ -25,5 +28,10 @@
     .copyright {
         font-size: 16px;
         font-weight: 400;
+
+        @media(max-width: 767px) {
+            padding-top: 10px;
+            text-align: center;
+        }
     }
 }
