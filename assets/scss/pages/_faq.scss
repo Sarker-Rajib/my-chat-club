@@ -57,7 +57,7 @@
         .imgh {
             img {
                 width: 50px;
-                margin-bottom: 10px;
+                margin-bottom: -25px;
             }
         }
     }
@@ -65,6 +65,10 @@
 
 .f-questions {
     padding: 65px 0;
+
+    @media(max-width:767px) {
+        padding: 25px 0;
+    }
 
     .top {
         h4 {
@@ -86,6 +90,10 @@
                 background: linear-gradient(169.02deg, #B2EBF2 -58.33%, #D1C4E9 60.57%);
                 border-radius: 17px;
             }
+
+            @media(max-width:767px) {
+                font-size: 20px;
+            }
         }
     }
 
@@ -95,12 +103,21 @@
         min-height: 750px;
         background: url(../images/Faq/Liquid-bg.png) no-repeat left top;
 
+        @media(max-width:767px) {
+            min-height: 320px;
+            padding-top: 20px;
+        }
+
         .accordion-4 {
             --bs-accordion-border-color: rgba(255, 255, 255, 0);
 
             .accordion-item {
                 padding-bottom: 40px;
                 background: #00000000;
+
+                @media(max-width:767px) {
+                    padding-bottom: 5px;
+                }
             }
 
             .accordion-header {
@@ -131,7 +148,16 @@
                         color: #C28FEF;
                         font-weight: 700;
                         text-align: center;
+
+                        @media(max-width:767px) {
+                            font-size: 20px;
+                        }
                     }
+
+                    @media(max-width:767px) {
+                        font-size: 20px;
+                    }
+
                 }
             }
 
@@ -141,6 +167,10 @@
                 p {
                     font-size: 30px;
                     font-weight: 600;
+
+                    @media(max-width:767px) {
+                        font-size: 12px;
+                    }
                 }
             }
         }
@@ -151,6 +181,10 @@
     text-align: center;
     padding: 120px 0 65px;
 
+    @media(max-width:767px) {
+        padding: 40px 0;
+    }
+
     h3 {
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -158,6 +192,10 @@
         font-size: 48px;
         font-weight: 600;
         padding-bottom: 55px;
+
+        @media(max-width:767px) {
+            font-size: 20px;
+        }
     }
 }
 
@@ -167,13 +205,21 @@
 
 .download {
     text-align: center;
-    padding-top: 65px;
-    padding-bottom: 200px;
+    padding: 65px 0 200px;
+
+    @media(max-width:767px) {
+        padding: 40px 0;
+    }
 
     h3 {
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-size: 48px;
         font-weight: 700;
+
+        @media(max-width:767px) {
+            font-size: 20px;
+        }
     }
+
 }
