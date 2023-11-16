@@ -569,7 +569,22 @@ body {
   border-radius: 17px;
 }
 .testimonial .testimonial-wrap {
-  padding: 20px 0;
+  padding: 40px 0 80px;
+}
+@media (max-width: 767px) {
+  .testimonial .testimonial-wrap {
+    padding: 30px 0 10px;
+  }
+}
+.testimonial .testimonial-wrap .swiper {
+  padding-top: 50px;
+}
+.testimonial .testimonial-wrap .swiper .swiper-wrapper .swiper-slide {
+  transition: 0.3s;
+}
+.testimonial .testimonial-wrap .swiper .swiper-wrapper .swiper-slide.swiper-slide-active {
+  transition: 0.3s;
+  transform: translateY(-50px);
 }
 @media (max-width: 767px) {
   .testimonial {
@@ -590,10 +605,16 @@ body {
 .club-banner p {
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.5;
-  padding-bottom: 30px;
   color: rgba(0, 0, 0, 0.5254901961);
+  padding-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .club-banner p {
+    padding-bottom: 10px;
+  }
 }
 
 .join-community {
@@ -633,6 +654,8 @@ body {
 }
 .join-community .inner-c .item {
   padding-bottom: 35px;
+  display: flex;
+  align-items: start;
 }
 .join-community .inner-c .item .image {
   margin-right: 25px;
@@ -651,20 +674,53 @@ body {
   font-size: 24px;
   color: rgba(0, 0, 0, 0.87);
 }
+@media (max-width: 767px) {
+  .join-community {
+    padding: 20px 0;
+  }
+  .join-community .top h4 {
+    font-size: 30px;
+  }
+  .join-community .top p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .join-community .inner-c {
+    background: url(../images/CT/cbg2.png) no-repeat top center;
+  }
+  .join-community .inner-c .item {
+    flex-direction: column;
+  }
+  .join-community .inner-c .item .image {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .join-community .inner-c .item .image img {
+    width: 45px;
+  }
+  .join-community .inner-c .item .text h5 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .join-community .inner-c .item .text p {
+    font-size: 16px;
+  }
+}
 
 .qualify {
   padding: 35px 0;
   background: url(../images/CT/f2bg1.png) no-repeat;
   font-family: "Roboto", sans-serif;
 }
-.qualify .qualty {
-  padding: 20px 0;
-  background: url(../images/CT/f2bg2.png) no-repeat center center;
-}
 .qualify .header {
   font-size: 48px;
   font-weight: 600;
   padding-bottom: 35px;
+}
+.qualify .qualty {
+  padding: 20px 0;
+  background: url(../images/CT/f2bg2.png) no-repeat center center;
 }
 .qualify .item {
   display: flex;
@@ -679,6 +735,32 @@ body {
   padding-top: 25px;
   font-size: 32px;
   font-weight: 700;
+}
+@media (max-width: 767px) {
+  .qualify {
+    padding: 25px 0;
+    background: url(../images/CT/f2bg1.png) no-repeat top left;
+  }
+  .qualify .header {
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+  .qualify .qualty {
+    padding: 0;
+    background: url(../images/CT/f2bg2.png) no-repeat bottom center;
+  }
+  .qualify .qualty .item img {
+    width: 20px;
+  }
+  .qualify .qualty .item p {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .qualify .para-g {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+  }
 }
 
 .join-now {
@@ -737,5 +819,33 @@ body {
   font-weight: 700;
   background: #fff;
   padding: 10px 25px;
-  border-radius: 25px;
+  border-radius: 15px;
+}
+@media (max-width: 767px) {
+  .join-now h2 {
+    font-size: 30px;
+  }
+  .join-now .form-join h4 {
+    font-size: 20px;
+  }
+  .join-now .form-join .input-c {
+    font-size: 16px;
+  }
+  .join-now .form-join .input-c::-moz-placeholder {
+    font-size: 16px;
+  }
+  .join-now .form-join .input-c::placeholder {
+    font-size: 16px;
+  }
+  .join-now .form-join .rradio label {
+    font-size: 16px;
+  }
+  .join-now .form-join .rradio input {
+    width: 16px;
+    height: 16px;
+  }
+  .join-now .form-join .submit-btn {
+    font-size: 20px;
+    padding: 10px 35px;
+  }
 }/*# sourceMappingURL=style.css.map */

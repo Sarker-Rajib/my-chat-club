@@ -203,7 +203,27 @@
     }
 
     .testimonial-wrap {
-        padding: 20px 0;
+        padding: 40px 0 80px;
+
+        @media(max-width:767px) {
+            padding: 30px 0 10px;
+        }
+
+        .swiper {
+            padding-top: 50px;
+
+            .swiper-wrapper {
+                .swiper-slide {
+                    transition: 0.3s;
+
+                    &.swiper-slide-active {
+                        transition: 0.3s;
+                        transform: translateY(-50px);
+                    }
+                }
+            }
+
+        }
     }
 
     @media(max-width:767px) {

@@ -12,16 +12,22 @@
     p {
         text-transform: uppercase;
         letter-spacing: 1px;
+        font-size: 18px;
         font-weight: 700;
         line-height: 1.5;
-        padding-bottom: 30px;
         color: #00000086;
+        padding-bottom: 30px;
+
+        @media(max-width: 767px) {
+            padding-bottom: 10px;
+        }
     }
 }
 
 .join-community {
     padding: 80px 0 20px;
     background: url(../images/CT/cbg2.png) no-repeat bottom center;
+
 
     .top {
         text-align: center;
@@ -61,6 +67,8 @@
 
         .item {
             padding-bottom: 35px;
+            display: flex;
+            align-items: start;
 
             .image {
                 margin-right: 25px;
@@ -84,6 +92,51 @@
             }
         }
     }
+
+    @media(max-width: 767px) {
+        padding: 20px 0;
+
+        .top {
+            h4 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+
+        .inner-c {
+            background: url(../images/CT/cbg2.png) no-repeat top center;
+
+            .item {
+                flex-direction: column;
+
+                .image {
+                    width: 100%;
+                    text-align: center;
+                    padding-bottom: 5px;
+
+                    img {
+                        width: 45px;
+                    }
+                }
+
+                .text {
+                    h5 {
+                        font-size: 20px;
+                        text-align: center;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+        }
+    }
 }
 
 .qualify {
@@ -91,15 +144,15 @@
     background: url(../images/CT/f2bg1.png) no-repeat;
     font-family: 'Roboto', sans-serif;
 
-    .qualty {
-        padding: 20px 0;
-        background: url(../images/CT/f2bg2.png) no-repeat center center;
-    }
-
     .header {
         font-size: 48px;
         font-weight: 600;
         padding-bottom: 35px;
+    }
+
+    .qualty {
+        padding: 20px 0;
+        background: url(../images/CT/f2bg2.png) no-repeat center center;
     }
 
     .item {
@@ -117,6 +170,39 @@
         padding-top: 25px;
         font-size: 32px;
         font-weight: 700;
+    }
+
+    @media(max-width: 767px) {
+        padding: 25px 0;
+        background: url(../images/CT/f2bg1.png) no-repeat top left;
+
+        .header {
+            font-size: 20px;
+            padding-bottom: 0;
+        }
+
+        .qualty {
+            padding: 0;
+            background: url(../images/CT/f2bg2.png) no-repeat bottom center;
+
+            .item {
+                img {
+                    width: 20px;
+                }
+
+                p {
+                    font-size: 14px;
+                    padding-left: 10px;
+                }
+            }
+
+        }
+
+        .para-g {
+            font-size: 20px;
+            text-align: center;
+            padding: 20px;
+        }
     }
 }
 
@@ -160,8 +246,6 @@
             option {
                 color: #000
             }
-
-            ;
         }
 
         .rradio {
@@ -183,7 +267,43 @@
             font-weight: 700;
             background: #fff;
             padding: 10px 25px;
-            border-radius: 25px;
+            border-radius: 15px;
+        }
+    }
+
+    @media(max-width: 767px) {
+        h2 {
+            font-size: 30px;
+        }
+
+        .form-join {
+            h4 {
+                font-size: 20px;
+            }
+
+            .input-c {
+                font-size: 16px;
+
+                &::placeholder {
+                    font-size: 16px;
+                }
+            }
+
+            .rradio {
+                label {
+                    font-size: 16px;
+                }
+
+                input {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+
+            .submit-btn {
+                font-size: 20px;
+                padding: 10px 35px;
+            }
         }
     }
 }
