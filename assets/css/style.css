@@ -30,7 +30,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .container {
     max-width: 1300px;
   }
@@ -73,7 +73,7 @@ body {
 }
 
 .footer .f-wrap {
-  padding: 35px 0;
+  padding: 60px 0 40px;
   background: url(../images/fbg.png) bottom left/cover;
 }
 @media (max-width: 767px) {
@@ -145,12 +145,12 @@ body {
 .btn-contact {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
   color: #673AB7;
   background: #FEC230;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  padding-inline: 20px;
+  padding-inline: 40px;
 }
 .btn-contact:hover {
   border: 1px solid #673AB7;
@@ -201,9 +201,9 @@ body {
 
 /*===// end of components css === */
 .f-banner {
-  margin-top: 20px;
   background: url(../images/Faq/FAQ1.png) no-repeat center center/cover;
-  padding: 65px 0;
+  padding: 60px 0;
+  margin-bottom: 60px;
 }
 .f-banner h3 {
   font-family: "Roboto", sans-serif;
@@ -235,7 +235,7 @@ body {
 @media (max-width: 767px) {
   .f-banner {
     margin-top: 0;
-    padding: 20px 0;
+    padding: 30px 0;
   }
   .f-banner h3 {
     font-size: 16px;
@@ -252,11 +252,13 @@ body {
 }
 
 .f-questions {
-  padding: 65px 0;
+  padding: 60px 0;
+  background: url(../images/Faq/Liquid-bg.png) no-repeat center center;
 }
 @media (max-width: 767px) {
   .f-questions {
-    padding: 25px 0;
+    background: url(../images/Faq/Liquid-bg.png) no-repeat left center;
+    padding: 40px 0;
   }
 }
 .f-questions .top h4 {
@@ -285,12 +287,9 @@ body {
 }
 .f-questions .inside {
   padding-top: 40px;
-  min-height: 750px;
-  background: url(../images/Faq/Liquid-bg.png) no-repeat left top;
 }
 @media (max-width: 767px) {
   .f-questions .inside {
-    min-height: 320px;
     padding-top: 20px;
   }
 }
@@ -357,7 +356,7 @@ body {
 
 .contact-us {
   text-align: center;
-  padding: 120px 0 65px;
+  padding: 60px 0;
 }
 @media (max-width: 767px) {
   .contact-us {
@@ -370,7 +369,7 @@ body {
   color: #673AB7;
   font-size: 48px;
   font-weight: 600;
-  padding-bottom: 55px;
+  padding-bottom: 35px;
 }
 @media (max-width: 767px) {
   .contact-us h3 {
@@ -384,7 +383,7 @@ body {
 
 .download {
   text-align: center;
-  padding: 65px 0 200px;
+  padding: 60px 0;
 }
 @media (max-width: 767px) {
   .download {
@@ -405,7 +404,12 @@ body {
 
 .home-banner {
   background: url(../images/Home/banner-bg.png) no-repeat center center;
-  padding: 40px 0;
+  padding: 60px 0;
+}
+@media (max-width: 767px) {
+  .home-banner {
+    padding: 40px 0;
+  }
 }
 .home-banner .t-wrap {
   position: relative;
@@ -456,12 +460,12 @@ body {
 }
 
 .features {
-  padding: 45px 0 100px;
+  padding: 60px 0;
   background: url(../images/Home/bbg2.png) no-repeat left center;
 }
 @media (max-width: 767px) {
   .features {
-    padding: 0px 0 30px;
+    padding: 30px 0;
   }
 }
 .features .top h4 {
@@ -522,7 +526,7 @@ body {
 }
 
 .special {
-  padding: 80px 0 100px;
+  padding: 60px 0;
   background: url(../images/Home/hbbg3.png) no-repeat center center;
 }
 .special h4 {
@@ -545,7 +549,7 @@ body {
 }
 @media (max-width: 767px) {
   .special {
-    padding: 0px;
+    padding: 30px 0px;
     text-align: center;
   }
   .special h4 {
@@ -561,7 +565,7 @@ body {
 
 .testimonial {
   background: url(../images/Mask.png) no-repeat top center/cover;
-  padding: 100px 0 0;
+  padding: 60px 0;
 }
 .testimonial .top h4 {
   font-size: 48px;
@@ -584,11 +588,11 @@ body {
   border-radius: 17px;
 }
 .testimonial .testimonial-wrap {
-  padding: 40px 0 80px;
+  padding: 40px 0 60px;
 }
 @media (max-width: 767px) {
   .testimonial .testimonial-wrap {
-    padding: 30px 0 10px;
+    padding: 30px 0;
   }
 }
 .testimonial .testimonial-wrap .swiper {
@@ -633,7 +637,7 @@ body {
 }
 
 .join-community {
-  padding: 80px 0 20px;
+  padding: 120px 0 60px;
   background: url(../images/CT/cbg2.png) no-repeat bottom center;
 }
 .join-community .top {
@@ -665,7 +669,7 @@ body {
   font-size: 35px;
 }
 .join-community .inner-c {
-  padding-top: 35px;
+  padding-top: 30px;
 }
 .join-community .inner-c .item {
   padding-bottom: 35px;
@@ -691,7 +695,7 @@ body {
 }
 @media (max-width: 767px) {
   .join-community {
-    padding: 20px 0;
+    padding: 80px 0 40px;
   }
   .join-community .top h4 {
     font-size: 30px;
@@ -724,7 +728,7 @@ body {
 }
 
 .qualify {
-  padding: 35px 0;
+  padding: 60px 0;
   background: url(../images/CT/f2bg1.png) no-repeat;
   font-family: "Roboto", sans-serif;
 }
@@ -734,7 +738,6 @@ body {
   padding-bottom: 35px;
 }
 .qualify .qualty {
-  padding: 20px 0;
   background: url(../images/CT/f2bg2.png) no-repeat center center;
 }
 .qualify .item {
@@ -746,14 +749,9 @@ body {
   padding-left: 25px;
   font-weight: 600;
 }
-.qualify .para-g {
-  padding-top: 25px;
-  font-size: 32px;
-  font-weight: 700;
-}
 @media (max-width: 767px) {
   .qualify {
-    padding: 25px 0;
+    padding: 40px 0;
     background: url(../images/CT/f2bg1.png) no-repeat top left;
   }
   .qualify .header {
@@ -774,7 +772,15 @@ body {
     font-size: 14px;
     padding-left: 10px;
   }
-  .qualify .para-g {
+}
+
+.para-g {
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .para-g {
     font-size: 20px;
     text-align: center;
     padding: 20px;
@@ -782,6 +788,7 @@ body {
 }
 
 .join-now {
+  padding: 60px 0;
   background: url(../images/Mask.png) no-repeat top center/cover;
 }
 .join-now h2 {
@@ -833,13 +840,22 @@ body {
 }
 .join-now .form-join .submit-btn {
   color: #673AB7;
-  font-size: 40px;
-  font-weight: 700;
   background: #fff;
-  padding: 10px 25px;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 10px 35px;
   border-radius: 15px;
+  margin-top: 20px;
+}
+.join-now .form-join .submit-btn:hover {
+  color: #fff;
+  background: #673AB7;
 }
 @media (max-width: 767px) {
+  .join-now {
+    background: #fff5f5;
+    padding: 40px 0;
+  }
   .join-now h2 {
     font-size: 30px;
   }
@@ -864,6 +880,6 @@ body {
   }
   .join-now .form-join .submit-btn {
     font-size: 20px;
-    padding: 10px 35px;
+    padding: 5px 35px;
   }
 }/*# sourceMappingURL=style.css.map */

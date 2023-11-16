@@ -1,7 +1,7 @@
 .f-banner {
-    margin-top: 20px;
     background: url(../images/Faq/FAQ1.png) no-repeat center center/cover;
-    padding: 65px 0;
+    padding: 60px 0;
+    margin-bottom: 60px;
 
     h3 {
         font-family: 'Roboto', sans-serif;
@@ -41,7 +41,7 @@
 
     @media(max-width:767px) {
         margin-top: 0;
-        padding: 20px 0;
+        padding: 30px 0;
 
         h3 {
             font-size: 16px;
@@ -64,10 +64,12 @@
 }
 
 .f-questions {
-    padding: 65px 0;
+    padding: 60px 0;
+    background: url(../images/Faq/Liquid-bg.png) no-repeat center center;
 
     @media(max-width:767px) {
-        padding: 25px 0;
+        background: url(../images/Faq/Liquid-bg.png) no-repeat left center;
+        padding: 40px 0;
     }
 
     .top {
@@ -97,14 +99,10 @@
         }
     }
 
-
     .inside {
         padding-top: 40px;
-        min-height: 750px;
-        background: url(../images/Faq/Liquid-bg.png) no-repeat left top;
 
         @media(max-width:767px) {
-            min-height: 320px;
             padding-top: 20px;
         }
 
@@ -179,7 +177,7 @@
 
 .contact-us {
     text-align: center;
-    padding: 120px 0 65px;
+    padding: 60px 0;
 
     @media(max-width:767px) {
         padding: 40px 0;
@@ -191,7 +189,7 @@
         color: #673AB7;
         font-size: 48px;
         font-weight: 600;
-        padding-bottom: 55px;
+        padding-bottom: 35px;
 
         @media(max-width:767px) {
             font-size: 20px;
@@ -205,7 +203,7 @@
 
 .download {
     text-align: center;
-    padding: 65px 0 200px;
+    padding: 60px 0;
 
     @media(max-width:767px) {
         padding: 40px 0;

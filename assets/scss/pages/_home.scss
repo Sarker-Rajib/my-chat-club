@@ -1,6 +1,11 @@
 .home-banner {
     background: url(../images/Home/banner-bg.png) no-repeat center center;
-    padding: 40px 0;
+    padding: 60px 0;
+
+    @media(max-width:767px) {
+        padding: 40px 0;
+
+    }
 
     .t-wrap {
         position: relative;
@@ -57,11 +62,11 @@
 }
 
 .features {
-    padding: 45px 0 100px;
+    padding: 60px 0;
     background: url(../images/Home/bbg2.png) no-repeat left center;
 
     @media(max-width:767px) {
-        padding: 0px 0 30px;
+        padding: 30px 0;
     }
 
     .top {
@@ -132,7 +137,7 @@
 }
 
 .special {
-    padding: 80px 0 100px;
+    padding: 60px 0;
     background: url(../images/Home/hbbg3.png) no-repeat center center;
 
     h4 {
@@ -157,7 +162,7 @@
     }
 
     @media(max-width:767px) {
-        padding: 0px;
+        padding: 30px 0px;
         text-align: center;
 
         h4 {
@@ -176,7 +181,7 @@
 
 .testimonial {
     background: url(../images/Mask.png) no-repeat top center/cover;
-    padding: 100px 0 0;
+    padding: 60px 0;
 
     .top {
         h4 {
@@ -203,10 +208,10 @@
     }
 
     .testimonial-wrap {
-        padding: 40px 0 80px;
+        padding: 40px 0 60px;
 
         @media(max-width:767px) {
-            padding: 30px 0 10px;
+            padding: 30px 0;
         }
 
         .swiper {
