@@ -62,10 +62,25 @@ body {
   transform: translateX(-50%);
   top: 100%;
 }
+@media (max-width: 767px) {
+  .header .navbar-collapse .nav-item .nav-link.active::after {
+    left: 20px;
+    top: 90%;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+  }
+}
 
 .footer .f-wrap {
   padding: 35px 0;
-  background: url(../images/footer-by.png) bottom left/cover;
+  background: url(../images/fbg.png) bottom left/cover;
+}
+@media (max-width: 767px) {
+  .footer .f-wrap {
+    background: url(../images/fbg.png) bottom center/cover;
+    flex-direction: column;
+  }
 }
 .footer .link-wrap {
   display: flex;
@@ -364,7 +379,7 @@ body {
 }
 
 .bgm {
-  background: url(../images/Mask.png) no-repeat center center/cover;
+  background: url(../images/Mask.png) no-repeat top center/cover;
 }
 
 .download {
@@ -748,6 +763,9 @@ body {
   .qualify .qualty {
     padding: 0;
     background: url(../images/CT/f2bg2.png) no-repeat bottom center;
+  }
+  .qualify .qualty .item {
+    padding-left: 20px;
   }
   .qualify .qualty .item img {
     width: 20px;

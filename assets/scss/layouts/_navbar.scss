@@ -1,5 +1,4 @@
 .header {
-
     .navbar-collapse {
         .nav-item {
             .nav-link {
@@ -21,6 +20,18 @@
                         left: 50%;
                         transform: translateX(-50%);
                         top: 100%;
+                    }
+                }
+
+                @media(max-width: 767px) {
+                    &.active {
+                        &::after {
+                            left: 20px;
+                            top: 90%;
+                            width: 30px;
+                            height: 3px;
+                            border-radius: 5px;
+                        }
                     }
                 }
             }
