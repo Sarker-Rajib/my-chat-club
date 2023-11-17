@@ -1,13 +1,13 @@
 .btn-login {
+    text-transform: uppercase;
+    font-family: 'Open Sans';
     background: #673AB7;
     border-radius: 39px;
-    font-family: 'Open Sans';
+    text-align: center;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    padding-inline: 25px;
 
     &:hover {
         border: 1px solid#673AB7;
@@ -68,6 +68,20 @@
     padding: 10px 25px;
     color: #fff;
     font-weight: 700;
+
+    &:hover {
+        border: 1px solid#673AB7;
+    }
+}
+
+.btn-lang {
+    font-size: 16px;
+    font-weight: 500;
+    background: #AF4EFD;
+    border-radius: 35px;
+    margin-left: 10px;
+    color: #fff;
+    width: 150px;
 
     &:hover {
         border: 1px solid#673AB7;
